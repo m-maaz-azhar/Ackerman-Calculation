@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse; /* combines adjacent cells' borders */
+    width: 100%; /* fill the parent container */
+    margin: auto; /* center the table horizontally */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* add a border to all cells */
+    padding: 8px; /* add some padding to the cells */
+    text-align: left; /* align text to the left */
+}
+
+th {
+    background-color: #dddddd; /* add a background color to the header cells */
+    font-weight: bold; /* make the header text bold */
+}
+
+/* optional */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* add a background color to every even row */
+}
